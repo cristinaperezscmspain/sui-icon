@@ -1,6 +1,6 @@
 {
   "name": "@schibstedspain/sui-icon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/",
   "scripts": {
     "clean:dist": "rm -Rf ./dist/*",
@@ -30,6 +30,7 @@
     "lint",
     "test"
   ],
+  "license": "ISC",
   "dependencies": {
     "react": "^0.13.3"
   },
@@ -38,7 +39,6 @@
     "@schibstedspain/theme-basic": "latest",
     "babel": "^5.5.6",
     "babel-eslint": "~3.1.14",
-    "babel-jscs": "^1.0.1",
     "babel-loader": "^5.1.4",
     "css-loader": "^0.15.3",
     "eslint": "~0.23.0",

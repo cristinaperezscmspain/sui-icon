@@ -1,7 +1,22 @@
 # sui-icon
 
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam commodi esse quis ipsam a iusto aut ratione ex optio ut! Illum alias voluptatibus dolores, perferendis deserunt totam illo reiciendis voluptatem.
+
+A react component to render svg icons.
+
+## Usage
+
+```jsx
+/*
+name: String, One of the icons in the svg folder
+size: Number, The size of the icon in pixels
+color: String, A css fill color
+*/
+
+<Icon name="your-icon-name" />
+<Icon name="your-icon-name" size={32} />
+<Icon name="your-icon-name" size={32} color="#bada55" />
+```
 
 ## Instalation
 Clone this repository and run:
