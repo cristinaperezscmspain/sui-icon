@@ -10,7 +10,19 @@ const iconNames = [
   "images",
   "retry",
   "star",
-  "trash"
+  "trash",
+  "home",
+  "fashion",
+  "kids",
+  "electronics",
+  "bikes",
+  "pets",
+  "motor",
+  "realstate",
+  "jobs",
+  "proffesionals",
+  "otherCat",
+  "allCat"
 ];
 
 const socialIcons = [
@@ -40,7 +52,7 @@ class IconList extends React.Component {
   render() {
     return (
       <div>
-        { iconNames.map(name => <Icon name={name} size={48} />) }
+        { iconNames.map(name => <Icon name={name} size={48} color={'#009F97'} />) }
         { socialIcons.map(icon => {
             return (
               <IconButton
